@@ -1,0 +1,46 @@
+*,html{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.body-content {
+  /* margin-top: 0; */
+  height: 100vh;
+  background: linear-gradient( to bottom, navy 0%, navy 50%, grey 50%, grey 100% );
+}
+
+.heading {
+  color: white;
+  padding-top: 5vh;
+}
+
+.inline {
+  margin: auto;
+  display: flex;
+  /* margin: 50px 400px; */
+  width: 75%;
+  padding: 55px 0;
+}
+
+.toolbar {
+  border: 1px solid white;
+  /* padding: 98px; */
+  margin: 20px 10px;
+  /* height: 200px; */
+  color: black;
+  background-color: #fff;
+  -webkit-box-shadow: 0 7px 12px rgb(0 0 0 / 20%);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#card :hover{
+  transform: scale(1.2);
+}
+
+.heading-card {
+  background: #444;
+  padding: 12px 5px;
+  text-transform: uppercase;
+  color: #fff;
+}
